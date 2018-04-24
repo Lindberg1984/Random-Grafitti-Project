@@ -1,0 +1,190 @@
+body {
+    background-image: url(images/brick-wall-background.jpg);
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header, mask and login panel settings are here! */
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+    top: 10px;
+}
+
+.login__wrap {
+    margin: 0 auto;
+}
+
+.login__panel {
+    background-color: #CCC;
+    border: 1px solid #0E0303;
+    border-radius: 5px;
+    height: 84px;
+    margin: 5px;
+    width: 370px;
+}
+
+.members {
+    color: #EC1010;
+    font-size: 14px;
+}
+
+.login {
+    border-radius: 5px;
+    bottom: 6px;
+    box-shadow: 2px 2px 2px #000;
+    font-weight: 700;
+    height: 22px;
+    position: relative;
+}
+
+.login__username {
+    box-shadow: 2px 2px 2px #000;
+    position: relative;
+    height: 15px;
+    top: -10px;
+    right: 7px;
+}
+
+.login__mail {
+    box-shadow: 2px 2px 2px #000;
+    height: 15px;
+    position: relative;
+    right: -5px;
+    top: -10px;
+}
+
+.logout {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #000;
+    font-weight: 700;
+    height: 22px;
+    left: 12px;
+    position: relative;
+    top: -6px;
+}
+
+.mask {
+    height: 300px;
+    width: 600px;
+}
+
+/* Navigation bar settings begin here! */
+
+.main__bar {
+    background-color: #000000;
+    border-radius: 5%;
+    border: 1px solid #000000;
+    display: inline-block;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main__bar ul {
+    margin-left: -37px;
+}
+
+.main__bar ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.main__bar a {
+    color: #FFF;
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.main__bar a:hover {
+    box-shadow: 2px 2px 2px #f2e604;
+    color: yellow;
+    transform: scale(1.03);
+}
+
+
+/* Main container settings begin here! */
+
+.main__content {
+    background-image: url(images/notebook-background.jpg);
+    border: 1px solid #000000;
+    border-radius: 5%;
+    flex-grow: 1;
+    margin: 0 auto;
+    text-align: center;
+    width: 750px;
+}
+
+/* Text and List item settings begin here! */
+
+.description {
+    font-family: helvetica;
+}
+
+.welcome {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.test {
+    color: #FF0000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.news__updates {
+    color: #0000FF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.video__announce {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 11px;
+}
+
+.cops {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.latin__section li {
+    font-size: 20px;
+    font-weight: 700;
+    list-style-type: none;
+    margin-right: 45px;
+}
+
+.developer {
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Spray Can settings begin here! */
+
+.spray-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.spraycan__left {
+    height: 250px;
+    width: 240px;
+    margin-right: 400px;
+}
+
+.spraycan__right {
+    height: 250px;
+    width: 240px;
+    margin-left: -130px;
+}
