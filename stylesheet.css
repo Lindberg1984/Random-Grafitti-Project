@@ -22,6 +22,7 @@ body {
     background-color: #CCC;
     border: 1px solid #0E0303;
     border-radius: 5px;
+    box-shadow: 3px 3px 3px #000;
     height: 84px;
     margin: 5px;
     width: 370px;
@@ -29,7 +30,9 @@ body {
 
 .members {
     color: #EC1010;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .login {
